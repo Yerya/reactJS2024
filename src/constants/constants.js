@@ -10,3 +10,4 @@ const avatarList = [
 ];
 
 export default avatarList;
+
