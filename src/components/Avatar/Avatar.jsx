@@ -20,8 +20,8 @@ class AvatarList extends React.Component {
                 <button onClick={this.handleShowAvatars}>Click!!!</button>
                 {isAvatarsVisible ? (
                     <div>
-                        {avatarList.map((avatar, index) => (
-                            <div key={index}>
+                        {avatarList.map((avatar) => (
+                            <div key={avatar.userName}>
                                 <div>{avatar.userName}</div>
                                 <img src={avatar.imageSrc} alt="avatar"/>
                             </div>
